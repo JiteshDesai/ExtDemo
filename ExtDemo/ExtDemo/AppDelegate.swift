@@ -11,10 +11,11 @@ var appDelegate: AppDelegate?
 
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegate {
 
     var window: UIWindow?
 
+    var tabBar: UITabBarController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -62,6 +63,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().inputView?.backgroundColor = UIColor.white//API.appBackgroundColor()
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white, NSFontAttributeName: UIFont(name: font_comfortaa_regular, size: 22)!]
+    }
+    func getTabbar()
+    {
+        self.tabBar = TabBarProvider.getTabBar()
+        self.tabBar?.delegate = self
     }
     
 }
