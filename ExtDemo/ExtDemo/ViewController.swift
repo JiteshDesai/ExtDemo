@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  ExtDemo
-//
-//  Created by JITESH on 02/08/18.
-//  Copyright © 2018 JITESH. All rights reserved.
-//
+
 
 import UIKit
 
@@ -136,6 +130,126 @@ class ViewController: UIViewController
         }
         self.tblFolders.reloadData()
         self.contentMsg.isHidden = API.isShowContentMessage(arr: self.arrOfTBLDataAll)
+    }
+    //MARK:- Show image upload options
+    func showActionSheet()
+    {
+        self.view.endEditing(true)
+        let actionSheet = UIAlertController(title: nil, message: nil, preferredStyle: UIAlertControllerStyle.actionSheet)
+        
+        actionSheet.addAction(UIAlertAction(title: "Gallery", style: UIAlertActionStyle.default, handler: { (alert:UIAlertAction!) -> Void in
+            self.photoLibrary()
+        }))
+        actionSheet.addAction(UIAlertAction(title: "Camera", style: UIAlertActionStyle.default, handler: { (alert:UIAlertAction!) -> Void in
+            self.camera()
+        }))
+        actionSheet.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.destructive, handler: nil))
+        
+        
+        if ( UIDevice.current.model.range(of: "iPad") != nil)
+        {
+            actionSheet.popoverPresentationController?.sourceView = self.view
+            actionSheet.popoverPresentationController?.sourceRect = self.view.bounds
+            
+            self.present(actionSheet, animated: true, completion: nil)
+        }
+        else
+        {
+            self.present(actionSheet, animated: true, completion: nil)
+        }
+    }
+    
+    func camera()
+    {
+        let myPickerController = UIImagePickerController()
+        myPickerController.delegate = self;
+        myPickerController.allowsEditing = true
+        myPickerController.sourceType = UIImagePickerControllerSourceType.camera
+        
+        self.present(myPickerController, animated: true, completion: nil)
+    }
+    
+    func photoLibrary()
+    {
+        let myPickerController = UIImagePickerController()
+        myPickerController.delegate = self;
+        myPickerController.allowsEditing = true
+        myPickerController.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        self.present(myPickerController, animated: true, completion: nil)
+    }
+    
+    //MARK:- Image pickker delegate methods
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any])
+    {
+        let image: UIImage = (info[UIImagePickerControllerEditedImage] as? UIImage)!
+        
+        //imgUserImage.image = image
+        DispatchQueue.main.async{
+            if let referenceUrl = info[UIImagePickerControllerReferenceURL] as? NSURL
+            {
+                ALAssetsLibrary().asset(for: referenceUrl as URL!, resultBlock:
+                    { asset in
+                        let fileName = asset?.defaultRepresentation().filename()
+                        //do whatever with your file name
+                        let imageName = fileName?.components(separatedBy: ".")
+                        print((imageName?[0])!)
+                        
+                        if self.strFromWhichBtn == "btnPanCardChooseFileAction"
+                        {
+                            self.imgPanCard = image
+                            self.lblPanCardDocName.text = imageName?[0]
+                            self.imgPanCardChooseFile.image = image
+                        }
+                        else if self.strFromWhichBtn == "btnBankChooseFileAction"
+                        {
+                            self.lblBankDocName.text = imageName?[0]
+                            self.imgBank = image
+                        }
+                        else if self.strFromWhichBtn == "btnAddressProofChooseFrontAction"
+                        {
+                            self.lblAddressDocFront.text = imageName?[0]
+                            self.imgAddFront = image
+                        }
+                        else if self.strFromWhichBtn == "btnAddressProofChooseBackAction"
+                        {
+                            self.lblAddressDocBack.text = imageName?[0]
+                            self.imgAddBack = image
+                        }
+                        
+                },
+                                        failureBlock: nil)
+            }
+            else
+            {
+                
+                if self.strFromWhichBtn == "btnPanCardChooseFileAction"
+                {
+                    self.imgPanCard = image
+                    self.lblPanCardDocName.text = String(Date().ticks)+".jpg"
+                    self.imgPanCardChooseFile.image = image
+                }
+                else if self.strFromWhichBtn == "btnBankChooseFileAction"
+                {
+                    self.lblBankDocName.text = String(Date().ticks)+".jpg"
+                    self.imgBank = image
+                }
+                else if self.strFromWhichBtn == "btnAddressProofChooseFrontAction"
+                {
+                    self.lblAddressDocFront.text = String(Date().ticks)+".jpg"
+                    self.imgAddFront = image
+                }
+                else if self.strFromWhichBtn == "btnAddressProofChooseBackAction"
+                {
+                    self.lblAddressDocBack.text = String(Date().ticks)+".jpg"
+                    self.imgAddBack = image
+                }
+            }
+            self.dismiss(animated: true, completion: nil)
+        }
+    }
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController)
+    {
+        self.dismiss(animated: true, completion: nil)
     }
 }
 

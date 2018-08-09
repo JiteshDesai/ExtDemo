@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  ExtDemo
-//
-//  Created by JITESH on 02/08/18.
-//  Copyright © 2018 JITESH. All rights reserved.
-//
+
 
 import UIKit
 var appDelegate: AppDelegate?
