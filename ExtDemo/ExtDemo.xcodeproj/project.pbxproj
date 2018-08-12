@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		693025482113E672002297EC /* TabBarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693025472113E672002297EC /* TabBarProvider.swift */; };
+		6956C1D921208220005E5D73 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956C1D821208220005E5D73 /* PlaceholderTextView.swift */; };
 		6999897B21134CF60073C719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6999897A21134CF60073C719 /* AppDelegate.swift */; };
 		6999897D21134CF60073C719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6999897C21134CF60073C719 /* ViewController.swift */; };
 		6999898021134CF60073C719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6999897E21134CF60073C719 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		693025472113E672002297EC /* TabBarProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarProvider.swift; sourceTree = "<group>"; };
+		6956C1D821208220005E5D73 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 		6999897721134CF60073C719 /* ExtDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6999897A21134CF60073C719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6999897C21134CF60073C719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		6999898C21134E120073C719 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				6956C1D821208220005E5D73 /* PlaceholderTextView.swift */,
 				6999898D21134E120073C719 /* Utility.swift */,
 			);
 			path = Utility;
@@ -171,6 +174,7 @@
 				6999897D21134CF60073C719 /* ViewController.swift in Sources */,
 				693025482113E672002297EC /* TabBarProvider.swift in Sources */,
 				6999897B21134CF60073C719 /* AppDelegate.swift in Sources */,
+				6956C1D921208220005E5D73 /* PlaceholderTextView.swift in Sources */,
 				6999898F21134E120073C719 /* Utility.swift in Sources */,
 				6999899121134E7D0073C719 /* Extension.swift in Sources */,
 			);
