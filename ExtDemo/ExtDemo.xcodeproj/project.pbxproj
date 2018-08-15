@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690D7C43212473D0006419E8 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D7C41212473D0006419E8 /* ProfileImageView.swift */; };
+		690D7C44212473D0006419E8 /* ProfileImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690D7C42212473D0006419E8 /* ProfileImageView.xib */; };
+		690D7C4821247457006419E8 /* DADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 690D7C4721247457006419E8 /* DADataManager.m */; };
 		693025482113E672002297EC /* TabBarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693025472113E672002297EC /* TabBarProvider.swift */; };
 		6956C1D921208220005E5D73 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956C1D821208220005E5D73 /* PlaceholderTextView.swift */; };
 		6999897B21134CF60073C719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6999897A21134CF60073C719 /* AppDelegate.swift */; };
@@ -19,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		690D7C41212473D0006419E8 /* ProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		690D7C42212473D0006419E8 /* ProfileImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileImageView.xib; sourceTree = "<group>"; };
+		690D7C4621247457006419E8 /* DADataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADataManager.h; sourceTree = "<group>"; };
+		690D7C4721247457006419E8 /* DADataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DADataManager.m; sourceTree = "<group>"; };
 		693025472113E672002297EC /* TabBarProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarProvider.swift; sourceTree = "<group>"; };
 		6956C1D821208220005E5D73 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 		6999897721134CF60073C719 /* ExtDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +50,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690D7C40212473D0006419E8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				690D7C41212473D0006419E8 /* ProfileImageView.swift */,
+				690D7C42212473D0006419E8 /* ProfileImageView.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		690D7C4521247457006419E8 /* DADataManager */ = {
+			isa = PBXGroup;
+			children = (
+				690D7C4621247457006419E8 /* DADataManager.h */,
+				690D7C4721247457006419E8 /* DADataManager.m */,
+			);
+			path = DADataManager;
+			sourceTree = "<group>";
+		};
 		693025462113E672002297EC /* Tab Bar */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +111,8 @@
 		6999898C21134E120073C719 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				690D7C4521247457006419E8 /* DADataManager */,
+				690D7C40212473D0006419E8 /* Profile */,
 				6956C1D821208220005E5D73 /* PlaceholderTextView.swift */,
 				6999898D21134E120073C719 /* Utility.swift */,
 			);
@@ -158,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690D7C44212473D0006419E8 /* ProfileImageView.xib in Resources */,
 				6999898521134CF80073C719 /* LaunchScreen.storyboard in Resources */,
 				6999898221134CF80073C719 /* Assets.xcassets in Resources */,
 				6999898021134CF60073C719 /* Main.storyboard in Resources */,
@@ -172,8 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6999897D21134CF60073C719 /* ViewController.swift in Sources */,
+				690D7C43212473D0006419E8 /* ProfileImageView.swift in Sources */,
 				693025482113E672002297EC /* TabBarProvider.swift in Sources */,
 				6999897B21134CF60073C719 /* AppDelegate.swift in Sources */,
+				690D7C4821247457006419E8 /* DADataManager.m in Sources */,
 				6956C1D921208220005E5D73 /* PlaceholderTextView.swift in Sources */,
 				6999898F21134E120073C719 /* Utility.swift in Sources */,
 				6999899121134E7D0073C719 /* Extension.swift in Sources */,
