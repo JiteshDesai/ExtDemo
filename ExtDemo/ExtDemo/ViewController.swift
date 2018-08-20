@@ -256,5 +256,92 @@ class ViewController: UIViewController
     {
         self.dismiss(animated: true, completion: nil)
     }
+    
+    
+//    //MARK:- Set Method
+//    func getPhotoLibrary()
+//    {
+//        self.arrOfTBLData = NSMutableArray()
+//        self.arrOfTBLDataAll = NSMutableArray()
+//        // Get PhotoLibrary
+//        DispatchQueue.global().async {
+//            let status = PHPhotoLibrary.authorizationStatus()
+//            if (status == PHAuthorizationStatus.authorized){
+//                self.getVideoFolderListFromGallery()
+//            }else {
+//
+//                PHPhotoLibrary.requestAuthorization(({ (newStatus) in
+//                    if (newStatus == PHAuthorizationStatus.authorized)
+//                    {
+//                        self.getVideoFolderListFromGallery()
+//                    }else
+//                    {
+//                        self.getPhotoLibrary()
+//                    }
+//                }))
+//
+//            }
+//        }
+//    }
+//    func getVideoFolderListFromGallery()
+//    {
+//        self.arrAssetCollection = NSMutableArray()
+//        self.arrOfTBLDataAll = NSMutableArray()
+//        self.arrOfTBLData = NSMutableArray()
+//        DispatchQueue.global(qos: .background).async {
+//            self.custObj.showSVHud("Loading")
+//            let fetchFolder:PHFetchOptions? = PHFetchOptions()
+//            fetchFolder?.sortDescriptors = [NSSortDescriptor(key:"localizedTitle", ascending: true)]
+//            let fetchVideos: PHFetchOptions = PHFetchOptions()
+//            fetchVideos.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: true)]
+//            fetchVideos.predicate = NSPredicate(format: "mediaType = %d ", PHAssetMediaType.video.rawValue)
+//            let assetCollections1 = PHAssetCollection.fetchAssetCollections(with: .smartAlbum, subtype: .any, options: nil)
+//
+//            for i in 0 ..< assetCollections1.count
+//            {
+//                if let assetCollection = assetCollections1[i] as? PHAssetCollection
+//                {
+//                    self.arrAssetCollection.add(assetCollection)
+//                }
+//            }
+//            let assetCollections2 = PHAssetCollection.fetchAssetCollections(with: .album, subtype: .any, options: nil)
+//            for j in 0 ..< assetCollections2.count
+//            {
+//                if let assetCollection = assetCollections2[j] as? PHAssetCollection
+//                {
+//                    self.arrAssetCollection.add(assetCollection)
+//                }
+//                if j == assetCollections2.count-1
+//                {
+//                    for i in 0 ..< self.arrAssetCollection.count
+//                    {
+//                        let assetCollectionItem : PHAssetCollection = self.arrAssetCollection.object(at: i) as! PHAssetCollection
+//                        let dic: NSMutableDictionary = NSMutableDictionary()
+//                        dic.setValue(assetCollectionItem.localizedTitle, forKey: "title")
+//                        let  assets = PHAsset.fetchAssets(in: assetCollectionItem, options: fetchVideos)
+//                        dic.setValue(assets.count, forKey: "videoCount")
+//                        dic.setValue(assets, forKey: "assets")
+//                        self.arrOfTBLDataAll.add(dic)
+//
+//                        //                        if i == self.arrAssetCollection.count - 1
+//                        //                        {
+//                        //                            print(self.arrOfTBLDataAll)
+//                        //                            self.arrOfTBLData = self.arrOfTBLDataAll
+//                        //                            self.contentMsg.isHidden = API.isShowContent(count: self.arrOfTBLDataAll.count)
+//                        //                            self.tblFolders.reloadData()
+//                        //                        }
+//                    }
+//
+//                }
+//            }
+//            DispatchQueue.main.async {
+//                self.arrOfTBLData = self.arrOfTBLDataAll
+//                self.contentMsg.isHidden = API.isShowContent(count: self.arrOfTBLDataAll.count)
+//                self.tblFolders.reloadData()
+//                self.custObj.hideSVHud()
+//            }
+//        }
+//    }
+    
 }
 
