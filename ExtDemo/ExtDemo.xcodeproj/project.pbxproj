@@ -37,6 +37,12 @@
 		6999898621134CF80073C719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6999898D21134E120073C719 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		6999899021134E7C0073C719 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		69AEACC221514E8800965CBF /* customClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customClassViewController.h; sourceTree = "<group>"; };
+		69AEACC321514E8800965CBF /* customClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customClassViewController.m; sourceTree = "<group>"; };
+		69AEACC421514E8800965CBF /* NSString+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		69AEACC521514E8800965CBF /* NSString+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		69AEACC621514E8800965CBF /* NSString+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		69AEACC721514E8800965CBF /* NSString+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 		6999897921134CF60073C719 /* ExtDemo */ = {
 			isa = PBXGroup;
 			children = (
+				69AEACC121514E8800965CBF /* customClass */,
 				693025462113E672002297EC /* Tab Bar */,
 				6999898E21134E120073C719 /* Extension */,
 				6999898C21134E120073C719 /* Utility */,
@@ -125,6 +132,19 @@
 				6999899021134E7C0073C719 /* Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		69AEACC121514E8800965CBF /* customClass */ = {
+			isa = PBXGroup;
+			children = (
+				69AEACC221514E8800965CBF /* customClassViewController.h */,
+				69AEACC321514E8800965CBF /* customClassViewController.m */,
+				69AEACC421514E8800965CBF /* NSString+Extensions.h */,
+				69AEACC521514E8800965CBF /* NSString+Extensions.m */,
+				69AEACC621514E8800965CBF /* NSString+Utils.h */,
+				69AEACC721514E8800965CBF /* NSString+Utils.m */,
+			);
+			path = customClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
