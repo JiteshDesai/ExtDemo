@@ -7,7 +7,6 @@
 //  Copyright © 2017 avikantz. All rights reserved.
 //
 
-import FBSDKCoreKit
 import SDWebImage
 import UIKit
 

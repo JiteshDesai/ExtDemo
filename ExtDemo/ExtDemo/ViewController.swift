@@ -5,6 +5,10 @@
 //Message Input View multiline    https://github.com/KeiroMidori/SBMessageInputView
 //Toast Message    https://github.com/scalessec/Toast-Swift
 //PaasCode  view    https://www.cocoacontrols.com/controls/bdpasscodeview
+
+
+let LANGUAGE_KEY  = "selected_language"
+let LANGUAGE_TYPE = "selected_language_type"
 import UIKit
 
 class ViewController: UIViewController
@@ -50,7 +54,8 @@ class ViewController: UIViewController
     }
     func setFrames()
     {
-        cvProductList.frame = CGRect.init(x: cvProductList.frame.origin.x, y: currentY, width: cvProductList.frame.size.width, height: cvProductList.contentSize.height)scrMain.contentSize = CGSize.init(width: 0, height: currentY)
+        cvProductList.frame = CGRect.init(x: cvProductList.frame.origin.x, y: currentY, width: cvProductList.frame.size.width, height: cvProductList.contentSize.height)
+        scrMain.contentSize = CGSize.init(width: 0, height: currentY)
         
     }
     @IBAction func btnSearchAction(_ sender: Any)
@@ -181,6 +186,21 @@ class ViewController: UIViewController
         myPickerController.allowsEditing = true
         myPickerController.sourceType = UIImagePickerControllerSourceType.photoLibrary
         self.present(myPickerController, animated: true, completion: nil)
+    }
+    //LOCALIZE
+    open static func setLocalize(strKey: String) -> String
+    {
+        let mapping: StringMapping = StringMapping()
+        return mapping.string(forKey: strKey)
+    }
+    open static func setSelectedLanguage(type: String)
+    {
+        UserDefaults.standard.setValue(type, forKey: LANGUAGE_KEY)
+        UserDefaults.standard.synchronize()
+    }
+    open static func getSelectedLanguage() -> String
+    {
+        return UserDefaults.standard.value(forKey:LANGUAGE_KEY) as! String
     }
     
     //MARK:- Image pickker delegate methods
@@ -345,3 +365,42 @@ class ViewController: UIViewController
     
 }
 
+//extension AVURLAsset {
+//    var fileSize: Float? {
+//        let keys: Set<URLResourceKey> = [.fileSizeKey]
+//        //let keys: Set<URLResourceKey> = [.totalFileSizeKey, .fileSizeKey]
+//        let resourceValues = try? url.resourceValues(forKeys: keys)
+//        let totalSize: Float = Float.init((resourceValues?.fileSize)!)
+//        return (totalSize/(1024.0 * 1024.0))
+//    }
+//    func getTotalMediaTime() -> String
+//    {
+//        let totalSeconds = Int(CMTimeGetSeconds(self.duration))
+//        let minutes = totalSeconds / 60
+//        let seconds = totalSeconds % 60
+//        let mediaDuration :String = String(format:"%02i:%02i",minutes, seconds)
+//        return mediaDuration
+//    }
+//    func getThumbnailFrom(path: URL) -> UIImage? {
+//        do {
+//            let asset = AVURLAsset(url: path , options: nil)
+//            let imgGenerator = AVAssetImageGenerator(asset: asset)
+//            imgGenerator.appliesPreferredTrackTransform = true
+//            let cgImage = try imgGenerator.copyCGImage(at: CMTimeMake(0, 1), actualTime: nil)
+//            let thumbnail = UIImage(cgImage: cgImage)
+//            return thumbnail
+//        } catch let error {
+//            print("*** Error generating thumbnail: \(error.localizedDescription)")
+//            return UIImage(named:"placeholder")
+//        }
+//    }
+//}
+//extension AVAsset {
+//    var screenSize: CGSize? {
+//        if let track = tracks(withMediaType: .video).first {
+//            let size = __CGSizeApplyAffineTransform(track.naturalSize, track.preferredTransform)
+//            return CGSize(width: fabs(size.width), height: fabs(size.height))
+//        }
+//        return nil
+//    }
+//}

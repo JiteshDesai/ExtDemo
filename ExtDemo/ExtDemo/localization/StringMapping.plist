@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>en</key>
+	<dict>
+		<key>app_name</key>
+		<string>eVOT</string>
+		<key>version</key>
+		<string>Version 1.0.0</string>
+		<key>description_short</key>
+		<string>Lorem Ipsum dolor sit amet.</string>
+		<key>description</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam.</string>
+		<key>description_long</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.</string>
+		<key>description_medium</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.</string>
+		<key>description_to_long</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.\n \n Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.orem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.</string>
+		<key>nointernet_connection</key>
+		<string>No Internet Connection Available</string>
+		<key>no_server</key>
+		<string>could not connect to server or check your internet connectivity and try again</string>
+		<key>nodata</key>
+		<string>No Data Found.</string>
+		<key>navigation_drawer_open</key>
+		<string>Open navigation drawer</string>
+		<key>navigation_drawer_close</key>
+		<string>Close navigation drawer</string>
+		<key>national_cat</key>
+		<string>NATIONAL</string>
+		<key>state_cat</key>
+		<string>STATE</string>
+		<key>latest_result</key>
+		<string>Latest Survey Result</string>
+		<key>evot_now</key>
+		<string>eVOT NOW</string>
+		<key>evot_nw</key>
+		<string>&lt;font color=#ffffff&gt;EVOT &lt;b&gt;NOW&lt;/b&gt;</string>
+		<key>evot</key>
+		<string>eVOT</string>
+		<key>current_topic</key>
+		<string>Current Topic</string>
+		<key>vote_state</key>
+		<string>Vote for State</string>
+		<key>vote_national</key>
+		<string>Vote for National</string>
+		<key>more_info</key>
+		<string>More Info</string>
+		<key>next</key>
+		<string>Next</string>
+		<key>back</key>
+		<string>Back</string>
+		<key>cancel</key>
+		<string>Cancel</string>
+		<key>send</key>
+		<string>Send</string>
+		<key>vote_now</key>
+		<string> VOTE NOW</string>
+		<key>send_otp</key>
+		<string>Send OTP</string>
+		<key>not_applicable</key>
+		<string>N/A</string>
+		<key>points_txt</key>
+		<string>Points</string>
+		<key>vote_txt</key>
+		<string>Votes</string>
+		<key>agree_txt</key>
+		<string>AGREE</string>
+		<key>done_txt</key>
+		<string>Done</string>
+		<key>error_txt</key>
+		<string>Error</string>
+		<key>neterror_txt</key>
+		<string>Network Error</string>
+		<key>notify_setting</key>
+		<string>Notification Setting</string>
+		<key>notification</key>
+		<string>Notification On/Off</string>
+		<key>language_setting</key>
+		<string>Language Setting</string>
+		<key>choose_language</key>
+		<string> &lt;font color=#ffffff&gt; &lt;font face=&apos;HelveticaNeue&apos; size=&apos;4&apos;&gt; Enjoy  &lt;b&gt; eVOT &lt;/b&gt;  by chaging Language &lt;/font&gt;</string>
+		<key>english</key>
+		<string>English</string>
+		<key>gujarati</key>
+		<string>Gujarati</string>
+		<key>hindi</key>
+		<string>Hindi</string>
+		<key>vote_your</key>
+		<string>Your vote :</string>
+		<key>result</key>
+		<string>RESULTS</string>
+		<key>more</key>
+		<string>MORE INFO</string>
+		<key>yes</key>
+		<string>Yes</string>
+		<key>no</key>
+		<string>No</string>
+		<key>maybe</key>
+		<string>Maybe</string>
+		<key>donotknow</key>
+		<string>Do not Know</string>
+		<key>posting_as</key>
+		<string>Posting as</string>
+		<key>post_btn</key>
+		<string>Post</string>
+		<key>select_cat</key>
+		<string>Select Category :</string>
+		<key>category</key>
+		<string>Category</string>
+		<key>ask_questions</key>
+		<string>Ask Question</string>
+		<key>post_topc</key>
+		<string>Post Topic</string>
+		<key>post_tp_enter</key>
+		<string>Enter Your Topic</string>
+		<key>feedback</key>
+		<string>Feedback</string>
+		<key>post_unique</key>
+		<string>Post unique topics / Ask vital questions if selected get PAID!</string>
+		<key>topic</key>
+		<string>Your topic(</string>
+		<key>character</key>
+		<string> character remainning )</string>
+		<key>send_feedback</key>
+		<string>Send us your feedback</string>
+		<key>logout_lable</key>
+		<string>Logout</string>
+		<key>logout_txt</key>
+		<string>Are you sure you want to Logout ?</string>
+		<key>ok</key>
+		<string>Ok</string>
+		<key>search_txt</key>
+		<string>Search...</string>
+		<key>total_votes</key>
+		<string>Total votes :</string>
+		<key>your_votes</key>
+		<string>Your votes :</string>
+		<key>topics</key>
+		<string>Topics</string>
+		<key>bio</key>
+		<string>Bio</string>
+		<key>edit_btn</key>
+		<string>Edit</string>
+		<key>name</key>
+		<string>FirstName</string>
+		<key>lastname</key>
+		<string>LastName</string>
+		<key>upload_profile_pic</key>
+		<string>Upload profile Picture</string>
+		<key>remove_profile_pic</key>
+		<string>Remove Picture</string>
+		<key>tap_image</key>
+		<string>(Tap image to change Picture)</string>
+		<key>link</key>
+		<string>City</string>
+		<key>location</key>
+		<string>State </string>
+		<key>mobile</key>
+		<string>Mobile No</string>
+		<key>mobile_enter</key>
+		<string>Enter Mobile Number</string>
+		<key>mobile_up</key>
+		<string>Mobile Updated Successfully</string>
+		<key>mobile_already_exist</key>
+		<string>Mobile Already Exist</string>
+		<key>birthdate</key>
+		<string>Birthdate</string>
+		<key>pincode</key>
+		<string>PIN code</string>
+		<key>email_id</key>
+		<string>Email Id</string>
+		<key>gender</key>
+		<string>Gender</string>
+		<key>male</key>
+		<string>Male</string>
+		<key>female</key>
+		<string>Female</string>
+		<key>relogion</key>
+		<string>Religion</string>
+		<key>set_privacy</key>
+		<string>Set Privacy</string>
+		<key>change_pass</key>
+		<string>Change Mobile number</string>
+		<key>language_set</key>
+		<string>Set Language</string>
+		<key>set_state</key>
+		<string>Set State</string>
+		<key>invalid_email</key>
+		<string>Invalid Email Id</string>
+		<key>update_sucsessfully</key>
+		<string>Profile Update Successfully.</string>
+		<key>ans_submit</key>
+		<string>Ans Submited Successfully.</string>
+		<key>edit_prof</key>
+		<string>EDIT PROFILE</string>
+		<key>edit_prof_successfully</key>
+		<string>Edit Your Prosile Successfully.......!</string>
+		<key>valid_url</key>
+		<string>please Enter Valid PINCODE.</string>
+		<key>old_pass</key>
+		<string>Enter Otp</string>
+		<key>new_pass</key>
+		<string>Old Mobile no.</string>
+		<key>confirm_pass</key>
+		<string>New Mobile no.</string>
+		<key>field_required</key>
+		<string> This field is Required</string>
+		<key>pass_not_match</key>
+		<string>Password and Confirm Password does not match</string>
+		<key>login_btn</key>
+		<string>Login</string>
+		<key>invalid_mobile</key>
+		<string> Invalid Mobile No</string>
+		<key>login_google</key>
+		<string>&lt;font color=#ffffff&gt; Login with &lt;br&gt; Google + </string>
+		<key>login_facebook</key>
+		<string>&lt;font color=#ffffff&gt; Login with  &lt;br&gt; Facebook</string>
+		<key>login_twitter</key>
+		<string>&lt;font color=#ffffff&gt; Login with &lt;br&gt;  Twitter</string>
+		<key>login_success</key>
+		<string>Login Successfully.</string>
+		<key>logout_success</key>
+		<string>Logout Successfully.</string>
+		<key>load</key>
+		<string>Loading...</string>
+		<key>thanks_voting</key>
+		<string>Thanks For Votting..</string>
+		<key>facebook_app_id</key>
+		<string>1971037363143140</string>
+		<key>fb_login_protocol_scheme</key>
+		<string>fb1971037363143140</string>
+		<key>twitter_consumer_key</key>
+		<string>0O71A7S0KXLddqCAPNDoaUMXL</string>
+		<key>twitter_consumer_secret</key>
+		<string>wMOYVvz02ccaUAqz50OzlnEMrIqRRIJHV0JMVKHwlDzt45bnlN</string>
+		<key>senderid</key>
+		<string>1010897282922</string>
+		<key>google_Place_key</key>
+		<string>AIzaSyBPHHu8jludfp7g-_Po-8oEYBxvkq4k8ak</string>
+		<key>gcm_error</key>
+		<string>GCM Error</string>
+		<key>error_occured</key>
+		<string>error occuerd</string>
+		<key>service_disable</key>
+		<string>service disable</string>
+		<key>service_not_support</key>
+		<string>service not support</string>
+		<key>home</key>
+		<string>Home</string>
+		<key>poll</key>
+		<string>Poll</string>
+		<key>news</key>
+		<string>News</string>
+		<key>archive_poll</key>
+		<string>Archive Poll</string>
+		<key>petition</key>
+		<string>Sign Petition</string>
+		<key>post_tp</key>
+		<string>Post Topic</string>
+		<key>post_successfully</key>
+		<string>Post Topic Successfully...!</string>
+		<key>search</key>
+		<string>Search</string>
+		<key>invite</key>
+		<string>Invite Others</string>
+		<key>setting</key>
+		<string>Setting</string>
+		<key>logout</key>
+		<string>Logout</string>
+		<key>rate_us</key>
+		<string>Rate Us</string>
+		<key>about_us</key>
+		<string>About Us</string>
+		<key>privacy</key>
+		<string>Privacy Policy</string>
+		<key>gallery</key>
+		<string>Photo Gallery</string>
+		<key>topic_send</key>
+		<string>Submited Sucessfully</string>
+		<key>ready_to_vote</key>
+		<string>Cast Your Vote For</string>
+		<key>not_vote</key>
+		<string>Oops! you are too late.</string>
+		<key>denide_msg</key>
+		<string>Go to settings and enable permission.</string>
+		<key>verify_otp</key>
+		<string>Verify OTP</string>
+		<key>resend_otp</key>
+		<string>Resend OTP</string>
+	</dict>
+	<key>hi</key>
+	<dict>
+		<key>app_name</key>
+		<string>eVOT</string>
+		<key>version</key>
+		<string>Version 1.0.0</string>
+		<key>description_short</key>
+		<string>Lorem Ipsum dolor sit amet.</string>
+		<key>description</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam.</string>
+		<key>description_long</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.</string>
+		<key>description_medium</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.</string>
+		<key>description_to_long</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.\n \n Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.orem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.</string>
+		<key>nointernet_connection</key>
+		<string>कोई इंटरनेट कनेक्शन उपलब्ध नहीं है</string>
+		<key>no_server</key>
+		<string>सर्वर से कनेक्ट नहीं हो सका या अपनी इंटरनेट कनेक्टिविटी की जांच करें और पुनः प्रयास करें</string>
+		<key>nodata</key>
+		<string>कोई डेटा नहीं मिला।</string>
+		<key>navigation_drawer_open</key>
+		<string>Open navigation drawer</string>
+		<key>navigation_drawer_close</key>
+		<string>Close navigation drawer</string>
+		<key>national_cat</key>
+		<string>राष्ट्रीय</string>
+		<key>state_cat</key>
+		<string>राज्य</string>
+		<key>latest_result</key>
+		<string>अंतिम सर्वे का परिणाम</string>
+		<key>evot_now</key>
+		<string>अपना वोट दें</string>
+		<key>evot_nw</key>
+		<string>&lt;font color=#ffffff&gt;&lt;b&gt;अभी &lt;/b&gt;मतदान करें</string>
+		<key>evot</key>
+		<string>eVOT</string>
+		<key>current_topic</key>
+		<string>वर्तमान विषय</string>
+		<key>vote_state</key>
+		<string>राज्य के लिए वोट दें</string>
+		<key>vote_national</key>
+		<string>राष्ट्रीय के लिए वोट दें</string>
+		<key>more_info</key>
+		<string>अधिक जानकारी</string>
+		<key>next</key>
+		<string>आगामी</string>
+		<key>back</key>
+		<string>वापस</string>
+		<key>cancel</key>
+		<string>रद्द करना</string>
+		<key>send</key>
+		<string>भेजना
+</string>
+		<key>vote_now</key>
+		<string> अभी मतदान करें</string>
+		<key>send_otp</key>
+		<string>भेजना OTP</string>
+		<key>not_applicable</key>
+		<string>उपलब्ध नहीं है</string>
+		<key>points_txt</key>
+		<string>अंक</string>
+		<key>vote_txt</key>
+		<string>वोट</string>
+		<key>agree_txt</key>
+		<string>इस बात से सहमत</string>
+		<key>done_txt</key>
+		<string>किया हुआ</string>
+		<key>error_txt</key>
+		<string>त्रुटि</string>
+		<key>neterror_txt</key>
+		<string>नेटवर्क त्रुटि</string>
+		<key>notify_setting</key>
+		<string>अधिसूचना सेटिंग</string>
+		<key>notification</key>
+		<string>अधिसूचना चालू / बंद</string>
+		<key>language_setting</key>
+		<string>भाषा सेटिंग</string>
+		<key>choose_language</key>
+		<string> &lt;font color=#ffffff&gt;   भाषा बदलकर  &lt;b&gt; eVOT &lt;/b&gt; का आनंद लें </string>
+		<key>english</key>
+		<string>अंग्रेज़ी</string>
+		<key>gujarati</key>
+		<string>गुजराती</string>
+		<key>hindi</key>
+		<string>हिंदी</string>
+		<key>vote_your</key>
+		<string>आपका मत:</string>
+		<key>result</key>
+		<string>परिणाम</string>
+		<key>more</key>
+		<string>और जानकारी</string>
+		<key>yes</key>
+		<string>हाँ</string>
+		<key>no</key>
+		<string>नहीं</string>
+		<key>maybe</key>
+		<string>शायद</string>
+		<key>donotknow</key>
+		<string>नही पता</string>
+		<key>posting_as</key>
+		<string>के रूप में पोस्टिंग</string>
+		<key>post_btn</key>
+		<string>पद</string>
+		<key>select_cat</key>
+		<string>रेणी का चयन करें :</string>
+		<key>category</key>
+		<string>वर्ग</string>
+		<key>ask_questions</key>
+		<string>प्रश्न पूछो</string>
+		<key>post_topc</key>
+		<string>पोस्ट विषय</string>
+		<key>post_tp_enter</key>
+		<string>अपना विषय दर्ज करें</string>
+		<key>post_successfully</key>
+		<string>पोस्ट विषय सफलतापूर्वक पूर्ण</string>
+		<key>feedback</key>
+		<string>प्रतिक्रिया</string>
+		<key>post_unique</key>
+		<string>अद्वितीय विषय पोस्ट करें / महत्वपूर्ण प्रश्न पूछें यदि चयनित हो भुगतान प्राप्त करना</string>
+		<key>topic</key>
+		<string>आपका विषय(</string>
+		<key>character</key>
+		<string>अक्षर शेष )</string>
+		<key>send_feedback</key>
+		<string>हमें अपना फ़ीडबैक भेजें</string>
+		<key>logout_lable</key>
+		<string>लोग आउट</string>
+		<key>logout_txt</key>
+		<string>क्या पक्का आप इसे छोड़ना चाहते हैं ?</string>
+		<key>ok</key>
+		<string>ठीक</string>
+		<key>search_txt</key>
+		<string>खोज...</string>
+		<key>total_votes</key>
+		<string>कुल वोट :</string>
+		<key>your_votes</key>
+		<string>आपका मत :</string>
+		<key>topics</key>
+		<string>विषय</string>
+		<key>bio</key>
+		<string>जीवनी</string>
+		<key>edit_btn</key>
+		<string>संपादित करें</string>
+		<key>name</key>
+		<string>नाम</string>
+		<key>lastname</key>
+		<string>नाम</string>
+		<key>upload_profile_pic</key>
+		<string>रोफ़ाइल अपलोड करें चित्</string>
+		<key>remove_profile_pic</key>
+		<string>चित्र निकालें</string>
+		<key>tap_image</key>
+		<string>(चित्र बदलने के लिए चित्र टैप करें)</string>
+		<key>link</key>
+		<string>शहर</string>
+		<key>location</key>
+		<string>राज्य </string>
+		<key>mobile</key>
+		<string>मोबाइल नंबर</string>
+		<key>mobile_enter</key>
+		<string>मोबाइल दर्ज करें</string>
+		<key>mobile_up</key>
+		<string>मोबाइल नंबर अपडेट सफलतापूर्वक</string>
+		<key>mobile_already_exist</key>
+		<string>मोबाइल पहले से मौजूद है</string>
+		<key>birthdate</key>
+		<string>जन्म दिन</string>
+		<key>pincode</key>
+		<string>पिन कोड</string>
+		<key>email_id</key>
+		<string>ईमेल आईडी</string>
+		<key>gender</key>
+		<string>लिंग</string>
+		<key>male</key>
+		<string>नर</string>
+		<key>female</key>
+		<string>महिला</string>
+		<key>relogion</key>
+		<string>धर्म</string>
+		<key>set_privacy</key>
+		<string>गोपनीयता सेट करें</string>
+		<key>change_pass</key>
+		<string>मोबाइल नंबर बदलें</string>
+		<key>language_set</key>
+		<string>भाषा सेट करें</string>
+		<key>set_state</key>
+		<string>राज्य सेट करें</string>
+		<key>invalid_email</key>
+		<string>अमान्य ईमेल आईडी</string>
+		<key>update_sucsessfully</key>
+		<string>रोफ़ाइल अपडेट सफलतापूर्वक.</string>
+		<key>ans_submit</key>
+		<string>जवाब सफलतापूर्वक प्रस्तुत</string>
+		<key>edit_prof</key>
+		<string>प्रोफाइल एडिट </string>
+		<key>edit_prof_successfully</key>
+		<string></string>
+		<key>valid_url</key>
+		<string>कृपया मान्य पिन कोड दर्ज करें</string>
+		<key>old_pass</key>
+		<string>ओटीपी दर्ज करें</string>
+		<key>new_pass</key>
+		<string>पुराने मोबाइल नंबर</string>
+		<key>confirm_pass</key>
+		<string>नया मोबाइल नंबर</string>
+		<key>field_required</key>
+		<string> यह फ़ील्ड आवश्यक है</string>
+		<key>pass_not_match</key>
+		<string>पासवर्ड और पासवर्ड की पुष्टि करें मैच नहीं है</string>
+		<key>login_btn</key>
+		<string>लॉग इन करें</string>
+		<key>invalid_mobile</key>
+		<string> अमान्य मोबाइल नंबर</string>
+		<key>login_google</key>
+		<string>&lt;font color=#ffffff&gt; Google + &lt;br&gt; के साथ लॉगिन करें </string>
+		<key>login_facebook</key>
+		<string>&lt;font color=#ffffff&gt; Facebook &lt;br&gt; के साथ लॉगिन करें</string>
+		<key>login_twitter</key>
+		<string>&lt;font color=#ffffff&gt; Twitter &lt;br&gt;  के साथ लॉगिन करें</string>
+		<key>login_success</key>
+		<string>प्रवेश सफलतापूर्वक.</string>
+		<key>logout_success</key>
+		<string>सफलतापूर्वक लॉगआउट करें.</string>
+		<key>load</key>
+		<string>लोड हो रहा है...</string>
+		<key>thanks_voting</key>
+		<string>वोटिंग के लिए धन्यवाद..</string>
+		<key>facebook_app_id</key>
+		<string>1971037363143140</string>
+		<key>fb_login_protocol_scheme</key>
+		<string>fb1971037363143140</string>
+		<key>twitter_consumer_key</key>
+		<string>0O71A7S0KXLddqCAPNDoaUMXL</string>
+		<key>twitter_consumer_secret</key>
+		<string>wMOYVvz02ccaUAqz50OzlnEMrIqRRIJHV0JMVKHwlDzt45bnlN</string>
+		<key>senderid</key>
+		<string>1010897282922</string>
+		<key>google_Place_key</key>
+		<string>AIzaSyBPHHu8jludfp7g-_Po-8oEYBxvkq4k8ak</string>
+		<key>gcm_error</key>
+		<string>जीसीएम त्रुटि</string>
+		<key>error_occured</key>
+		<string>रुटि हुई</string>
+		<key>service_disable</key>
+		<string>सेवा अक्षम करें</string>
+		<key>service_not_support</key>
+		<string>सेवा का समर्थन नहीं है</string>
+		<key>home</key>
+		<string>होम</string>
+		<key>poll</key>
+		<string>मतदान</string>
+		<key>news</key>
+		<string>समाचार</string>
+		<key>archive_poll</key>
+		<string>संग्रह पोल</string>
+		<key>petition</key>
+		<string>हस्ताक्षर याचिका</string>
+		<key>post_tp</key>
+		<string>पोस्ट विषय</string>
+		<key>search</key>
+		<string>खोज</string>
+		<key>invite</key>
+		<string>दूसरों को आमंत्रित करें</string>
+		<key>setting</key>
+		<string>सेटिंग</string>
+		<key>logout</key>
+		<string>लोग आउट</string>
+		<key>rate_us</key>
+		<string>हमें रेटिंग दें</string>
+		<key>about_us</key>
+		<string>हमारे बारे में</string>
+		<key>privacy</key>
+		<string>गोपनीयता नीति</string>
+		<key>gallery</key>
+		<string>चित्र प्रदर्शनी</string>
+		<key>topic_send</key>
+		<string>सफलतापूर्वक सबमिट कर दिया गया है|</string>
+		<key>ready_to_vote</key>
+		<string>अपना वोट दें</string>
+		<key>not_vote</key>
+		<string>ऊप्स! आप बहुत देर से आए हो।</string>
+		<key>denide_msg</key>
+		<string>सेटिंग्स पर जाएं और अनुमति सक्षम करें|</string>
+		<key>verify_otp</key>
+		<string>OTP जांच करना</string>
+		<key>resend_otp</key>
+		<string>OTP फिर से भेजें</string>
+	</dict>
+	<key>gu</key>
+	<dict>
+		<key>app_name</key>
+		<string>eVOT</string>
+		<key>version</key>
+		<string>Version 1.0.0</string>
+		<key>description_short</key>
+		<string>Lorem Ipsum dolor sit amet.</string>
+		<key>description</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam.</string>
+		<key>description_long</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.</string>
+		<key>description_medium</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.</string>
+		<key>description_to_long</key>
+		<string>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.\n \n Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.orem Ipsum dolor sit amet, consectetuer adipiscing elit sed diam .Ut wisi enim ad minim veniam,quis nostrud excerci tation ullamcorper suscipit.</string>
+		<key>nointernet_connection</key>
+		<string>કોઈ ઇન્ટરનેટ કનેક્શન ઉપલબ્ધ નથી</string>
+		<key>no_server</key>
+		<string>સર્વર સાથે કનેક્ટ કરી શક્યું નથી અથવા તમારી ઇન્ટરનેટ કનેક્ટિવિટી તપાસો અને ફરી પ્રયાસ કરો</string>
+		<key>nodata</key>
+		<string>કોઈ ડેટા મળ્યો નથી.</string>
+		<key>navigation_drawer_open</key>
+		<string>Open navigation drawer</string>
+		<key>navigation_drawer_close</key>
+		<string>Close navigation drawer</string>
+		<key>national_cat</key>
+		<string>રાષ્ટ્રીય</string>
+		<key>state_cat</key>
+		<string>રાજ્ય</string>
+		<key>latest_result</key>
+		<string>છેલ્લા સર્વે નું પરિણામ</string>
+		<key>evot_now</key>
+		<string>તમારો મત આપો</string>
+		<key>evot_nw</key>
+		<string>&lt;font color=#ffffff&gt;&lt;b&gt;હમણાં &lt;/b&gt;મત આપો</string>
+		<key>evot</key>
+		<string>eVOT</string>
+		<key>current_topic</key>
+		<string>વર્તમાન વિષય</string>
+		<key>vote_state</key>
+		<string>રાજ્ય માટે મત આપો</string>
+		<key>vote_national</key>
+		<string>રાષ્ટ્રીય મત આપો</string>
+		<key>more_info</key>
+		<string>વધુ મહિતી</string>
+		<key>next</key>
+		<string>આગળ</string>
+		<key>back</key>
+		<string>પાછળ</string>
+		<key>cancel</key>
+		<string>રદ કરો</string>
+		<key>send</key>
+		<string>મોકલો</string>
+		<key>vote_now</key>
+		<string>હમણાં મત આપો.</string>
+		<key>send_otp</key>
+		<string>OTP મોકલો</string>
+		<key>not_applicable</key>
+		<string>ઉપલબ્ધ નથી</string>
+		<key>points_txt</key>
+		<string>પોઇંટ્સ</string>
+		<key>vote_txt</key>
+		<string>મતો</string>
+		<key>agree_txt</key>
+		<string>સંમતિ આપો</string>
+		<key>done_txt</key>
+		<string>થઈ ગયું</string>
+		<key>error_txt</key>
+		<string>ભૂલ</string>
+		<key>neterror_txt</key>
+		<string>નેટવર્ક ક્ષતિ</string>
+		<key>notify_setting</key>
+		<string>સૂચના સેટિંગ</string>
+		<key>notification</key>
+		<string>સૂચના ચાલુ / બંધ</string>
+		<key>language_setting</key>
+		<string>ભાષા સેટિંગ</string>
+		<key>choose_language</key>
+		<string> &lt;font color=#ffffff&gt;  ભાષા બદલાવી  &lt;b&gt; eVOT &lt;/b&gt; નો આનંદ માણો. </string>
+		<key>english</key>
+		<string>અંગ્રેજી</string>
+		<key>gujarati</key>
+		<string>ગુજરાતી</string>
+		<key>hindi</key>
+		<string>હિન્દી</string>
+		<key>vote_your</key>
+		<string>તમારો મત:</string>
+		<key>result</key>
+		<string>પરિણામો</string>
+		<key>more</key>
+		<string>વધુ માહિતી</string>
+		<key>yes</key>
+		<string>હા</string>
+		<key>no</key>
+		<string>ના</string>
+		<key>donotknow</key>
+		<string>ખબર નથી</string>
+		<key>maybe</key>
+		<string>કદાચ</string>
+		<key>posting_as</key>
+		<string>પોસ્ટ તરીકે</string>
+		<key>post_btn</key>
+		<string>પોસ્ટ કરો</string>
+		<key>select_cat</key>
+		<string>કેટેગરી પસંદ કરો :</string>
+		<key>category</key>
+		<string>કેટેગરી</string>
+		<key>ask_questions</key>
+		<string>પ્રશ્ન પૂછો</string>
+		<key>post_topc</key>
+		<string>પોસ્ટ વિષય</string>
+		<key>post_tp_enter</key>
+		<string>તમારો મુદ્દો દાખલ કરો</string>
+		<key>post_successfully</key>
+		<string>પોસ્ટ વિષય સફળતાપૂર્વક પૂર્ણ</string>
+		<key>feedback</key>
+		<string>પ્રતિસાદ</string>
+		<key>post_unique</key>
+		<string>અનન્ય વિષયો પોસ્ટ કરો / મહત્વપૂર્ણ પ્રશ્નો પૂછો જો પસંદ કરેલું ચૂકવણી!</string>
+		<key>topic</key>
+		<string>તમારા વિષય(</string>
+		<key>character</key>
+		<string>અક્ષર બાકી )</string>
+		<key>send_feedback</key>
+		<string>અમને તમારી પ્રતિસાદ મોકલો</string>
+		<key>logout_lable</key>
+		<string>લૉગ આઉટ</string>
+		<key>logout_txt</key>
+		<string>શું તમે ખરેખર છોડવા માંગો છો?</string>
+		<key>ok</key>
+		<string>ઠીક છે</string>
+		<key>search_txt</key>
+		<string>શોધો...</string>
+		<key>total_votes</key>
+		<string>કુલ મત :</string>
+		<key>your_votes</key>
+		<string>તમારો મત:</string>
+		<key>topics</key>
+		<string>વિષયો</string>
+		<key>bio</key>
+		<string>બાયોડેટા</string>
+		<key>edit_btn</key>
+		<string>સંપાદિત કરો</string>
+		<key>name</key>
+		<string>નામ</string>
+		<key>lastname</key>
+		<string>છેલ્લું નામ</string>
+		<key>upload_profile_pic</key>
+		<string>રોફાઇલ ચિત્ર અપલોડ કરો</string>
+		<key>remove_profile_pic</key>
+		<string>ચિત્ર દૂર કરો</string>
+		<key>tap_image</key>
+		<string>(ચિત્ર બદલવા માટે છબીને ટેપ કરો)</string>
+		<key>link</key>
+		<string>શહેર</string>
+		<key>location</key>
+		<string>રાજ્ય </string>
+		<key>mobile</key>
+		<string>મોબાઇલ નંબર</string>
+		<key>mobile_up</key>
+		<string>મોબાઇલ નંબર અપડેટ સફળતાપૂર્વક </string>
+		<key>mobile_already_exist</key>
+		<string>મોબાઇલ પહેલેથી હાજર છે</string>
+		<key>mobile_enter</key>
+		<string>મોબાઇલ દાખલ કરો</string>
+		<key>birthdate</key>
+		<string>જન્મ તારીખ</string>
+		<key>pincode</key>
+		<string>પીન કોડ</string>
+		<key>email_id</key>
+		<string>ઇમેઇલ આઈડી</string>
+		<key>gender</key>
+		<string>જાતિ</string>
+		<key>male</key>
+		<string>પુરૂષ</string>
+		<key>female</key>
+		<string>સ્ત્રી</string>
+		<key>relogion</key>
+		<string>ધર્મ</string>
+		<key>set_privacy</key>
+		<string>ગોપનીયતા સેટ કરો</string>
+		<key>change_pass</key>
+		<string>મોબાઇલ નંબર બદલો</string>
+		<key>language_set</key>
+		<string>ભાષા સેટ કરો</string>
+		<key>set_state</key>
+		<string>રાજ્ય સેટ કરો</string>
+		<key>invalid_email</key>
+		<string>અમાન્ય ઇમેઇલ ID</string>
+		<key>update_sucsessfully</key>
+		<string>રોફાઇલ સફળતાપૂર્વક અપડેટ થઈ.</string>
+		<key>ans_submit</key>
+		<string>જવાબ સફળતાપૂર્વક સબમિટ.</string>
+		<key>edit_prof_successfully</key>
+		<string>રોફાઇલ સફળતાપૂર્વક અપડેટ થઈ.</string>
+		<key>edit_prof</key>
+		<string>પ્રોફાઇલ સંપાદિત </string>
+		<key>valid_url</key>
+		<string>કૃપા કરી માન્ય પિન કોડ દાખલ કરો</string>
+		<key>old_pass</key>
+		<string>OTP દાખલ કરો</string>
+		<key>new_pass</key>
+		<string>જૂનો મોબાઇલ નં</string>
+		<key>confirm_pass</key>
+		<string>નવો મોબાઇલ નંબર</string>
+		<key>field_required</key>
+		<string>આ ક્ષેત્ર જરૂરી છે</string>
+		<key>pass_not_match</key>
+		<string>* પાસવર્ડ અને પુષ્ટિ પાસવર્ડ મેળ ખાતો નથી</string>
+		<key>login_btn</key>
+		<string>લૉગિન</string>
+		<key>invalid_mobile</key>
+		<string>* અમાન્ય મોબાઇલ નંબર</string>
+		<key>login_google</key>
+		<string>&lt;font color=#ffffff&gt; Google+ &lt;br&gt; સાથે લોગિન કરો </string>
+		<key>login_facebook</key>
+		<string>&lt;font color=#ffffff&gt; FaceBook &lt;br&gt; સાથે લોગિન કરો</string>
+		<key>login_twitter</key>
+		<string>&lt;font color=#ffffff&gt;  Twitter &lt;br&gt; સાથે લોગિન કરો</string>
+		<key>login_success</key>
+		<string>લૉગિન સફળતાપૂર્વક.</string>
+		<key>logout_success</key>
+		<string>સફળતાપૂર્વક લૉગઆઉટ કરો.</string>
+		<key>load</key>
+		<string>Loading...</string>
+		<key>thanks_voting</key>
+		<string>મતદાન માટે આભાર..</string>
+		<key>facebook_app_id</key>
+		<string>1971037363143140</string>
+		<key>fb_login_protocol_scheme</key>
+		<string>fb1971037363143140</string>
+		<key>twitter_consumer_key</key>
+		<string>0O71A7S0KXLddqCAPNDoaUMXL</string>
+		<key>twitter_consumer_secret</key>
+		<string>wMOYVvz02ccaUAqz50OzlnEMrIqRRIJHV0JMVKHwlDzt45bnlN</string>
+		<key>senderid</key>
+		<string>1010897282922</string>
+		<key>google_Place_key</key>
+		<string>AIzaSyBPHHu8jludfp7g-_Po-8oEYBxvkq4k8ak</string>
+		<key>gcm_error</key>
+		<string>GCM ભૂલ</string>
+		<key>error_occured</key>
+		<string>ભૂલ આવી</string>
+		<key>service_disable</key>
+		<string>સેવા અક્ષમ કરો</string>
+		<key>service_not_support</key>
+		<string>સેવા સહાય નથી</string>
+		<key>home</key>
+		<string>હોમ</string>
+		<key>poll</key>
+		<string>મતદાન</string>
+		<key>news</key>
+		<string>સમાચાર</string>
+		<key>archive_poll</key>
+		<string>સંગ્રહ પોલ</string>
+		<key>petition</key>
+		<string>સાઇન અરજી</string>
+		<key>post_tp</key>
+		<string>પોસ્ટ વિષય</string>
+		<key>search</key>
+		<string>શોધો</string>
+		<key>invite</key>
+		<string>અન્ય લોકોને આમંત્રિત કરો</string>
+		<key>setting</key>
+		<string>સેટિંગ</string>
+		<key>logout</key>
+		<string>લૉગ આઉટ</string>
+		<key>rate_us</key>
+		<string>અમારો દર કરો</string>
+		<key>about_us</key>
+		<string>અમારા વિશે</string>
+		<key>privacy</key>
+		<string>ગોપનીયતા નીતિ</string>
+		<key>gallery</key>
+		<string>ફોટો ગેલેરી</string>
+		<key>topic_send</key>
+		<string>&quot;સફળતાપૂર્વક સબમિટ કરેલું &quot;</string>
+		<key>ready_to_vote</key>
+		<string>તમારો મત આપો</string>
+		<key>not_vote</key>
+		<string>અરેરે! તમે ખૂબ જ મોડા છો.</string>
+		<key>denide_msg</key>
+		<string>સેટિંગ્સ પર જાઓ અને પરવાનગી સક્રિય કરો.</string>
+		<key>verify_otp</key>
+		<string>OTP ચકાસો</string>
+		<key>resend_otp</key>
+		<string>OTP ફરી મોકલો</string>
+	</dict>
+</dict>
+</plist>

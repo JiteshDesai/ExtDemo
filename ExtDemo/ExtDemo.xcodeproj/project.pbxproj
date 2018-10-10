@@ -11,6 +11,9 @@
 		690D7C44212473D0006419E8 /* ProfileImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690D7C42212473D0006419E8 /* ProfileImageView.xib */; };
 		690D7C4821247457006419E8 /* DADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 690D7C4721247457006419E8 /* DADataManager.m */; };
 		693025482113E672002297EC /* TabBarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693025472113E672002297EC /* TabBarProvider.swift */; };
+		69564AE3216D98B700A74AA2 /* StringMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 69564AE1216D98B700A74AA2 /* StringMapping.m */; };
+		69564AE4216D98B700A74AA2 /* StringMapping.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69564AE2216D98B700A74AA2 /* StringMapping.plist */; };
+		69564AE8216D9C4900A74AA2 /* StringLocalizationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69564AE7216D9C4900A74AA2 /* StringLocalizationClass.swift */; };
 		6956C1D921208220005E5D73 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956C1D821208220005E5D73 /* PlaceholderTextView.swift */; };
 		6999897B21134CF60073C719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6999897A21134CF60073C719 /* AppDelegate.swift */; };
 		6999897D21134CF60073C719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6999897C21134CF60073C719 /* ViewController.swift */; };
@@ -27,6 +30,10 @@
 		690D7C4621247457006419E8 /* DADataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADataManager.h; sourceTree = "<group>"; };
 		690D7C4721247457006419E8 /* DADataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DADataManager.m; sourceTree = "<group>"; };
 		693025472113E672002297EC /* TabBarProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarProvider.swift; sourceTree = "<group>"; };
+		69564AE0216D98B700A74AA2 /* StringMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringMapping.h; sourceTree = "<group>"; };
+		69564AE1216D98B700A74AA2 /* StringMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringMapping.m; sourceTree = "<group>"; };
+		69564AE2216D98B700A74AA2 /* StringMapping.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StringMapping.plist; sourceTree = "<group>"; };
+		69564AE7216D9C4900A74AA2 /* StringLocalizationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringLocalizationClass.swift; sourceTree = "<group>"; };
 		6956C1D821208220005E5D73 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 		6999897721134CF60073C719 /* ExtDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6999897A21134CF60073C719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +89,17 @@
 			path = "Tab Bar";
 			sourceTree = "<group>";
 		};
+		69564ADF216D98B700A74AA2 /* localization */ = {
+			isa = PBXGroup;
+			children = (
+				69564AE7216D9C4900A74AA2 /* StringLocalizationClass.swift */,
+				69564AE0216D98B700A74AA2 /* StringMapping.h */,
+				69564AE1216D98B700A74AA2 /* StringMapping.m */,
+				69564AE2216D98B700A74AA2 /* StringMapping.plist */,
+			);
+			path = localization;
+			sourceTree = "<group>";
+		};
 		6999896E21134CF60073C719 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +119,7 @@
 		6999897921134CF60073C719 /* ExtDemo */ = {
 			isa = PBXGroup;
 			children = (
+				69564ADF216D98B700A74AA2 /* localization */,
 				69AEACC121514E8800965CBF /* customClass */,
 				693025462113E672002297EC /* Tab Bar */,
 				6999898E21134E120073C719 /* Extension */,
@@ -209,6 +228,7 @@
 				6999898521134CF80073C719 /* LaunchScreen.storyboard in Resources */,
 				6999898221134CF80073C719 /* Assets.xcassets in Resources */,
 				6999898021134CF60073C719 /* Main.storyboard in Resources */,
+				69564AE4216D98B700A74AA2 /* StringMapping.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,8 +244,10 @@
 				693025482113E672002297EC /* TabBarProvider.swift in Sources */,
 				6999897B21134CF60073C719 /* AppDelegate.swift in Sources */,
 				690D7C4821247457006419E8 /* DADataManager.m in Sources */,
+				69564AE3216D98B700A74AA2 /* StringMapping.m in Sources */,
 				6956C1D921208220005E5D73 /* PlaceholderTextView.swift in Sources */,
 				6999898F21134E120073C719 /* Utility.swift in Sources */,
+				69564AE8216D9C4900A74AA2 /* StringLocalizationClass.swift in Sources */,
 				6999899121134E7D0073C719 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
